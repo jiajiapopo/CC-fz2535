@@ -2,14 +2,14 @@
 // this is the only part of the file you need to edit!
 
 const quotes = [
-  { text: "the intersection of programming, design, and art", source: "Scott" },
-  { text: "a chance for code to be wrong", source: "Sara" },
-  { text: "surprise, exploration, and aesthetic exploration", source: "Sally" },
-  { text: "process over results", source: "Sam" },
-  { text: "form over function", source: "Sean" },
-  { text: "iterative and experimental", source: "Scooby" },
-  { text: "a community of practice", source: "Seth" },
-  { text: "an opportunity to stick it to the man", source: "Shifty-eyed Susan" }
+  { text: "programming techniques combined with artistic expression", source: "SMU Meadows" },
+  { text: "software literacy in the visual arts, and visual literacy in technology", source: "Processing Foundation" },
+  { text: "a loosely defined term for practices that use code as a medium", source: "Raphaël de Courville" },
+  { text: "programming where the goal is to make something expressive instead of something functional", source: "Wikipedia" },
+  { text: "code in the contexts of art, play, and self-expression", source: "The Guidebook" },
+  { text: "a way of thinking, not a technical skill", source: "Casey Reas" },
+  { text: "abstracting aesthetic processes into executable computer code", source: "Marius Watz" },
+  { text: "artworks articulated as code", source: "Awesome Creative Coding" }
 ];
 // no need to edit anything below this line! 
 // if you have made an error, you can check your history to see what might have gone wrong
@@ -31,7 +31,7 @@ function pickQuote() {
   // take a random number and use that to identify what quote to use
   current = quotes[floor(random(quotes.length))];
 }
-
+c
 function draw() {
   background(255, 20, 250); // set the background color
   drawQuote();  // draw the quote on screen
