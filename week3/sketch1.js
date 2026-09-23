@@ -16,8 +16,8 @@ function draw() {
         let angle = map(mouseY, 0, height, 0, PI); 
         rotate(angle);
         
-        let s = map(y, 0, height, 1, 1.5);
-        scale(s);
+        let size = map(y, 0, height, 1, 1.5);
+        scale(size);
 
         let hueValue = map(mouseX, 0, width, 0, 360);
         fill(hueValue, 80, 90);
