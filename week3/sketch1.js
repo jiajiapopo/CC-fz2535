@@ -1,28 +1,32 @@
 function setup() {
-  createCanvas(400, 400);
-  rectMode(CENTER); // 设置矩形以中心点定位 [3]
+  createCanvas(windowWidth, windowHeight);
+  rectMode(CENTER); 
+  colorMode(HSB, 360, 100, 100);
 }
 
 function draw() {
-  background(240);
-  for (let x = 50; x < width; x += 120) {
+  background(50, 30, 50);
+  for (let x = 50; x < width; x += 95) {
+    for (let y = 50; y < height; y += 95) {
 
-  // 示例：将基础图形平移到画布中心 (200, 200) 位置 [4]
-  push();              // 1. 保存当前原始坐标系状态 [2, 5]
-  translate(x, 200); // 2. 把坐标原点 (0,0) 移动到目的地 [6, 7]
+        
+        push();            
+        translate(x, y);
 
-  // 3. 绘制围绕 (0,0) 的基础元件（范围控制在约 100px × 100px 内）[1]
-  strokeWeight(2);
-  fill(180, 200, 255);
-  rect(0, 0, 80, 80);     // 中心位于 (0,0) 的正方形 [3]
-  
-  stroke(255, 100, 100);
-  line(-40, -40, 40, 40); // 穿过原点的交叉线 [8]
-  line(-40, 40, 40, -40);
-  
-  fill(255);
-  circle(0, 0, 30);       // 中心位于 (0,0) 的小圆 [9]
+        let angle = map(mouseY, 0, height, 0, PI); 
+        rotate(angle);
+        
+        let s = map(y, 0, height, 1, 1.5);
+        scale(s);
 
-  pop();               // 4. 恢复坐标系，防止平移影响后面的绘制 [2, 10]
+        let hueValue = map(mouseX, 0, width, 0, 360);
+        fill(hueValue, 80, 90);
+        stroke(100);
+        
+        rect(0, 0, 50, 50);
+        line(-20, -20, 20, 20);
+       
+        pop();    
+    }           
   }
 }
