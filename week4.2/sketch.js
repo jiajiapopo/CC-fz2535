@@ -33,13 +33,15 @@ function draw() {
     randomSeed(seed);
     background(220);
     noFill();
-
-    let gap = 7;             
+ 
     let inc = 0.005; 
+    let y = 50;
 
-    for (let y = 50; y < height - 50; y += gap) {
-        let currentAmp = map(y, 50, height - 50, 100, 2);
-        drawLine(y, currentAmp, inc);
+    while (y < height - 50) {
+    let currentGap = map(y, 50, height - 50, 3, 18);
+    let currentAmp = map(y, 50, height - 50, 2, 70);
+    drawLine(y, currentAmp, inc);
+    y += currentGap;
     }
 
     if (doExport) {
