@@ -20,7 +20,15 @@ During review, I noticed that snow was only drifting on the two back walls while
 During actual projection, I felt the perspective was slightly off. After reflecting on it, I realized that from this viewing angle, the ceiling shouldn't actually be visible, so I dragged the ceiling quad to an unseen corner.
 Note: During the process, I pressed s frequently to save, as the browser had auto-refreshed once before, forcing me to recalibrate all corner points from scratch.
 
-Results & Future Improvements
+Results & Future Improvements：
 The final output turned out quite well, but there are a few key areas I can improve in future iterations:
 Floor Alignment: After a friend with a background in art reviewed it with me, I realized that the edges of the floor quad should remain strictly parallel to the physical corner lines of the wall.
 Enhancing Contrast: The gradient values for wall shading could be pushed much further apart to create stronger contrast. Because physical projection naturally washes out contrast, having a greater light-to-dark difference directly in code will make the 3D space appear more dimensional and vivid.
+<img width="3024" height="4032" alt="IMG_9136" src="https://github.com/user-attachments/assets/bafbfd54-b8d8-43d9-a6da-e6bd7807ea15" />
+<img width="3024" height="4032" alt="IMG_9123" src="https://github.com/user-attachments/assets/c8adccdc-9d5b-4bb5-9fda-815725ad39d7" />
+<img width="3024" height="4032" alt="IMG_9120" src="https://github.com/user-attachments/assets/37d0c1e0-36cf-430e-9955-94cf39fb22cc" />
+<img width="3024" height="4032" alt="IMG_9110" src="https://github.com/user-attachments/assets/14689b38-2022-4d31-bafb-48a12f9cb596" />
+
+
+https://github.com/user-attachments/assets/b3b3ce4d-b3a9-4177-b24d-fac5be4d0198
+
