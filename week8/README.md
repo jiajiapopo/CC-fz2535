@@ -1,0 +1,2 @@
+A childhood photo of me
+The knit texture was not planned. I meant to write stepSize * 0.4 for the triangle size, but typed stepSize / 0.4 instead. That made every triangle much bigger than its grid cell, so each new row of triangles stacks on top of the row above it. The result looked like knitted fabric, so I kept the "mistake" and built the piece around it. Right now I use stepSize / 0.6, which makes each triangle about 1.7 times the size of a cell.
