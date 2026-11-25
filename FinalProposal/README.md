@@ -14,4 +14,7 @@ I want to improve my Week 7 projection mapping piece, A Snowy Room Hidden in the
 
 Expected challenge: I will borrow the projector from school, and I am not sure its brightness and resolution can support an image this large.
 
-A question for the class: should I change the outline of the room to a triangle, like Turrell's, or keep the rectangle?
+Question for the class:
+
+1. Should I change the outline of the room to a triangle, like Turrell's, or keep the rectangle?
+2. How to place the Christmas tree in order to avoid the line of the wall corner.
