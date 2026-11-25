@@ -4,13 +4,13 @@ I want to improve my Week 7 projection mapping piece, A Snowy Room Hidden in the
 
 ## My plan:
 
-Make it bigger. The projection starts at the real floor and is as tall as a person. The Christmas tree grows to about my height, so the piece stops being a small model on the wall and becomes a space you can feel immersed in.
+1. Make it bigger. The projection starts at the real floor and is as tall as a person. The Christmas tree grows to about my height, so the piece stops being a small model on the wall and becomes a space you can feel immersed in.
 
-Use the real floor. The projected floor lies directly on the actual floor of the room.
-Add sound. Christmas songs play in the room.
+2. Use the real floor. The projected floor lies directly on the actual floor of the room.
+   Add sound. Christmas songs play in the room.
 
-Let the snow pile up. Snow slowly accumulates on the ground.
-Push the contrast. The projector washes out gradients, so the light and dark values on the walls need to be much further apart in the code.
+3. Let the snow pile up. Snow slowly accumulates on the ground.
+   Push the contrast. The projector washes out gradients, so the light and dark values on the walls need to be much further apart in the code.
 
 Expected challenge: I will borrow the projector from school, and I am not sure its brightness and resolution can support an image this large.
 
