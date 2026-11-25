@@ -8,6 +8,6 @@ Each cloud of color is one hour. The day runs from left to right, from 00:00 to 
 ## How to use it
 
 - Open the page. Today's painting spreads hour by hour.
-- `←` `→` look at the past 7 days.
-- `space` or click to paint the day again.
+- <kbd>←</kbd> <kbd>→</kbd> look at the past 7 days.
+- <kbd>Space</kbd> or click to paint the day again.
 - Move the mouse over the painting to light up the sparkles.
