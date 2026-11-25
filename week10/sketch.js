@@ -51,7 +51,7 @@ class ChordHand {
     this.candidateFrames = 0;
     this.holdFrames = 4;
 
-    this.tiltAmount = 0.25;
+    this.tiltAmount = 0.5;
 
     this.buildNotes();
   }
